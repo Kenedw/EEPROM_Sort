@@ -1,0 +1,58 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Mar 18 22:55:42 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_2       code   0x000000    program   0x000002
+                   .org_3       code   0x000004    program   0x0000c8
+.config_2007_VAZIO_EEPROM.O       code   0x002007    program   0x000002
+                   .org_1       code   0x002100    program   0x000050
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000067      
+                            0x002007    0x002007      
+                            0x002100    0x002127      
+            142 out of 1158 program addresses used, program memory utilization is 12%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  AGUARDA   0x00001f    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                    CARGA   0x000035    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                 CONTINUA   0x000041    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                CONTINUA2   0x000044    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                      FIM   0x00005d    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+             GRAVA_EEPROM   0x000013    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                   INICIO   0x000024    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                LE_EEPROM   0x00000c    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                     MAIN   0x000033    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                  SAI_INT   0x000007    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                     VAZA   0x000052    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  SAI_INT   0x000007    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                LE_EEPROM   0x00000c    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+             GRAVA_EEPROM   0x000013    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                  AGUARDA   0x00001f    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                   INICIO   0x000024    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                     MAIN   0x000033    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                    CARGA   0x000035    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                 CONTINUA   0x000041    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                CONTINUA2   0x000044    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                     VAZA   0x000052    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+                      FIM   0x00005d    program     static D:\Usuario\kened\Desktop\UFPB\Microcontroladores\Proj2\1\Vazio_EEPROM.ASM
+
+
